@@ -14,7 +14,7 @@
 1. リポジトリをクローンします。
 
 ```bash
-git clone https://github.com/your-username/vite-react-ts-tailwind-template.git
+git clone https://github.com/Kadotchi/template-vite-react-typescript.git
 cd vite-react-ts-tailwind-template
 ```
 
