@@ -82,3 +82,28 @@ Tailwind CSSの設定はtailwind.config.jsファイルで行います。必要�
 - Prettier: ^3.2.5
 - TypeScript: ^5.2.2
 - vite-tsconfig-paths: ^4.3.2
+
+## ローカルにテンプレートをクローンしてから、リモートに新しいリポジトリを作成
+
+1. テンプレートリポジトリをローカルにクローン  
+   まず、テンプレートリポジトリをローカルにクローンします。
+
+```bash
+git clone https://github.com/Kadotchi/template-vite-react-typescript.git
+cd template-vite-react-typescript
+```
+
+2. 新しいリモートリポジトリを追加
+
+```bash
+git remote add origin https://github.com/your-username/new-repository-name.git
+```
+
+3. 初回コミットとプッシュ  
+   コードをコピーする
+
+```bash
+git add .
+git commit -m "Initial commit with new project name"
+git push -u origin main
+```
